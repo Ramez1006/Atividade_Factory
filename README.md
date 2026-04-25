@@ -52,10 +52,6 @@ O projeto segue a estrutura padrão de um projeto Maven:
     *   `Personagem.java`: Interface para todos os personagens.
     *   `Alien.java`, `Robo.java`, `Zumbi.java`: Implementações de personagens específicos.
 
-## Como Compilar e Executar
-
-Para compilar e executar este projeto, você precisará ter o **Apache Maven** e o **Java Development Kit (JDK) 11 ou superior** instalados em sua máquina.
-
 
 ## Referências
 
