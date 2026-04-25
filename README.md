@@ -56,31 +56,6 @@ O projeto segue a estrutura padrão de um projeto Maven:
 
 Para compilar e executar este projeto, você precisará ter o **Apache Maven** e o **Java Development Kit (JDK) 11 ou superior** instalados em sua máquina.
 
-### 1. Navegar até o diretório do projeto
-
-Abra o terminal e navegue até a pasta `demo` do projeto:
-
-```bash
-cd /home/ubuntu/projeto_java/Atividade_Facotry/demo
-```
-
-### 2. Compilar o Projeto
-
-Utilize o Maven para compilar o código-fonte:
-
-```bash
-mvn compile
-```
-
-### 3. Executar o Programa
-
-Após a compilação bem-sucedida, você pode executar a aplicação usando o plugin `exec` do Maven:
-
-```bash
-mvn exec:java -Dexec.mainClass="com.example.Main"
-```
-
-Isso iniciará o jogo, que demonstrará a criação e as ações dos diferentes tipos de personagens utilizando o padrão Factory Method.
 
 ## Referências
 
