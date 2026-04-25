@@ -2,12 +2,8 @@ package fabrica;
 
 import personagem.Personagem;
 
-/**
- * Classe abstrata Creator do padrão Factory Method.
- *
- * Define o método de fábrica (criarPersonagem) que as subclasses devem
- * implementar, além de operações padrão que utilizam o personagem criado.
- */
+
+
 public abstract class FabricaPersonagem {
 
     /**
@@ -17,10 +13,9 @@ public abstract class FabricaPersonagem {
      */
     public abstract Personagem criarPersonagem();
 
-    /**
-     * Operação padrão: cria o personagem e o apresenta ao jogo.
-     * Usa o Factory Method internamente — demonstra o template method.
-     */
+  
+
+    
     public void iniciarPersonagem() {
         Personagem p = criarPersonagem();
         System.out.println("==============================");
