@@ -9,15 +9,6 @@ import personagem.Personagem;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Classe que representa o Jogo.
- *
- * Usa o padrão Factory Method por meio das fábricas concretas.
- * Para adicionar um novo inimigo basta criar:
- *   1. Uma classe que implementa Personagem
- *   2. Uma classe que estende FabricaPersonagem
- * Nenhuma classe existente precisa ser modificada (princípio Open/Closed).
- */
 public class Jogo {
 
     private final List<FabricaPersonagem> fabricas = new ArrayList<>();
@@ -29,9 +20,9 @@ public class Jogo {
         fabricas.add(new FabricaAlien());
     }
 
-    /**
-     * Inicia o jogo criando e exibindo cada tipo de personagem.
-     */
+    
+     //Inicia o jogo criando e exibindo cada tipo de personagem.
+    
     public void iniciar() {
         System.out.println("╔══════════════════════════════════╗");
         System.out.println("║     PLATAFORMA DE JOGOS — v1.0   ║");
