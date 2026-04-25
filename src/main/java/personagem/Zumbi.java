@@ -1,9 +1,5 @@
 package personagem;
 
-/**
- * Personagem concreto: Zumbi.
- * Produto concreto no padrão Factory Method.
- */
 public class Zumbi implements Personagem {
 
     @Override

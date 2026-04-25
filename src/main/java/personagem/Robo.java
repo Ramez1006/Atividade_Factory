@@ -1,9 +1,6 @@
 package personagem;
 
-/**
- * Personagem concreto: Robô.
- * Produto concreto no padrão Factory Method.
- */
+
 public class Robo implements Personagem {
 
     @Override
