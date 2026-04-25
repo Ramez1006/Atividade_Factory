@@ -1,9 +1,6 @@
 package personagem;
 
-/**
- * Personagem concreto: Alien.
- * Produto concreto no padrão Factory Method.
- */
+
 public class Alien implements Personagem {
 
     @Override
